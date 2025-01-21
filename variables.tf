@@ -12,13 +12,13 @@ variable "region" {
 variable "app_name" {
   description = "A name for the application (used for resource naming)"
   type        = string
-  default     = "interstellar"
+  default     = "imran's-global-app"
 }
 
 variable "network_name" {
   description = "The name of the VPC network"
   type        = string
-  default     = "interstellar-network"
+  default     = "imran's-network"
 }
 
 variable "ssh_source_ranges" {
@@ -125,7 +125,7 @@ variable "dns_managed_zone_name" {
 variable "dns_subdomain" {
   description = "Subdomain to create the certificate and A record for"
   type        = string
-  default     = "interstellar"
+  default     = "imrandevops"
 }
 
 variable "secondary_region" {
